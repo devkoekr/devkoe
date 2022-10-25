@@ -1,4 +1,3 @@
-/*
 const adder = {
   name : "nginx",
   add : function(a, b){
@@ -6,4 +5,3 @@ const adder = {
   },
 }
 adder.add(15, 4165);
-*/
