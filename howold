@@ -1,0 +1,10 @@
+const age = parseInt(prompt("how old are you?"));
+if (isNaN(age) || age < 0) {
+  console.log("please write a number");
+} else if (50 > age && age > 18) {
+  console.log("you can drink yo");
+} else if (age === 100) {
+  console.log("wow?");
+} else {
+  console.log("you can't drink");
+}
